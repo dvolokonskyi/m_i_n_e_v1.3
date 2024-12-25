@@ -73,6 +73,43 @@ body {
     padding-top: 15px;
 }
 
+a:hover {
+    opacity: 0.6;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
+    padding-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    outline: 2px solid wheat;
+}
+
 .main {
     border: 3px solid whitesmoke;
     border-radius: 10px;
@@ -95,7 +132,7 @@ body {
 
 .title {
     font-size: 22px;
-    margin: 18px 18px 18px 25px;
+    margin: 18px 18px 75px 25px;
     color: wheat;
 }
 
@@ -103,10 +140,9 @@ body {
 
 .slider {
     width: 816px !important;
-    height: 459px !important;
+    height: 339px !important;
     margin: 18px;
     border-radius: 15px;
-    border: 1px solid black;
     overflow: hidden;
 }
 
@@ -116,24 +152,30 @@ body {
     animation-name: slider;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 32s;
+    animation-duration: 64s;
 }
 
 .seven div {
     min-width: 816px;
-    height: 459px;
+    height: 339px;
+    display: flex;
+    position: relative;
 }
 
-.box1 {
+.imgmain {
+    width: 640px;
+    height: 339px;
+    display: flex;
+}
+
+.vertiline {
+    width: 5px;
+    min-height: 329px;
+    position: absolute;
+    right: 5px;
+    top: -12px;
     background-color: wheat;
-}
-
-.box2 {
-    background-color: aqua;
-}
-
-.box3 {
-    background-color: blue;
+    border-radius: 5px;
 }
 
 .box4 {
@@ -157,7 +199,7 @@ body {
         margin-left: 0;
     }
 
-    10% {
+    13% {
         margin-left: 0;
     }
 
@@ -165,7 +207,7 @@ body {
         margin-left: -816px;
     }
 
-    25% {
+    28% {
         margin-left: -816px;
     }
 
@@ -173,7 +215,7 @@ body {
         margin-left: -1632px;
     }
 
-    40% {
+    43% {
         margin-left: -1632px;
     }
 
@@ -181,7 +223,7 @@ body {
         margin-left: -2448px;
     }
 
-    55% {
+    58% {
         margin-left: -2448px;
     }
 
@@ -189,7 +231,7 @@ body {
         margin-left: -3264px;
     }
 
-    70% {
+    73% {
         margin-left: -3264px;
     }
 
@@ -197,7 +239,7 @@ body {
         margin-left: -4080px;
     }
 
-    85% {
+    88% {
         margin-left: -4080px;
     }
 
@@ -212,4 +254,161 @@ body {
     100% {
         margin-left: 0px;
     }
+}
+
+#toggle:checked~.seven {
+    animation-play-state: paused !important;
+}
+
+#toggle:checked~.labe img {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+#toggle:checked~.labe .hide {
+    opacity: 1 !important;
+    display: block !important;
+}
+
+.labe:hover {
+    opacity: 0.6;
+}
+
+.button, #button {
+    position: absolute;
+    top: 379px;
+    right: 139px;
+    z-index: 1;
+    animation-name: buttonhide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 64s;
+}
+
+@keyframes buttonhide {
+    0% {
+        display: block;
+    }
+
+    12.99% {
+        display: block;
+    }
+
+    13% {
+        display: none;
+    }
+
+    14.99% {
+        display: none;
+    }
+
+    15% {
+        display: block;
+    }
+
+    27.99% {
+        display: block;
+    }
+
+    28% {
+        display: none;
+    }
+
+    29.99% {
+        display: none;
+    }
+
+    30% {
+        display: block;
+    }
+
+    42.99% {
+        display: block;
+    }
+
+    43% {
+        display: none;
+    }
+
+    44.99% {
+        display: none;
+    }
+
+    45% {
+        display: block;
+    }
+
+    57.99% {
+        display: block;
+    }
+
+    58% {
+        display: none;
+    }
+
+    59.99% {
+        display: none;
+    }
+
+    60% {
+        display: block;
+    }
+
+    72.99% {
+        display: block;
+    }
+
+    73% {
+        display: none;
+    }
+
+    74.99% {
+        display: none;
+    }
+
+    75% {
+        display: block;
+    }
+
+    87.99% {
+        display: block;
+    }
+
+    88% {
+        display: none;
+    }
+
+    89.99% {
+        display: none;
+    }
+
+    90% {
+        display: block;
+    }
+
+    98.99% {
+        display: block;
+    }
+
+    99% {
+        display: none;
+    }
+
+    99.99% {
+        display: none;
+    }
+
+    100% {
+        display: block;
+    }
+}
+
+.specifica {
+    margin: 15px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
 }
