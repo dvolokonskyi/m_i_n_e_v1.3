@@ -260,6 +260,11 @@ a:hover {
     animation-play-state: paused !important;
 }
 
+#toggle:checked~.button,
+#toggle:checked~#button {
+    animation-play-state: paused !important;
+}
+
 #toggle:checked~.labe img {
     display: none;
 }
