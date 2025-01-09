@@ -151,6 +151,7 @@ a {
     margin-right: 15px;
     margin-top: 20px;
     display: flex;
+    position: relative;
 }
 
 .img {
@@ -216,4 +217,28 @@ a {
     100% {
         margin-left: 0px;
     }
+}
+
+.source {
+    position: absolute;
+    top: 250px;
+    left: 240px;
+}
+
+.sourcetwo {
+    position: absolute;
+    top: 250px;
+    left: 507px;
+}
+
+.source a,
+.sourcetwo a {
+    color: wheat;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.source a:hover,
+.sourcetwo a:hover {
+    opacity: 0.6;
 }
