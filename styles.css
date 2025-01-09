@@ -174,3 +174,46 @@ a {
 .specificalities span {
     font-weight: bold;
 }
+
+.slider {
+    width: 500px;
+    height: 281px;
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 8px;
+    outline: 2px solid whitesmoke;
+    overflow: hidden;
+}
+
+#slider {
+    display: flex;
+    width: 1000px;
+    height: 281px;
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+}
+
+.slider img {
+    min-width: 500px;
+    height: 281px;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0px;
+    }
+    49% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: -500px;
+    }
+    99% {
+        margin-left: -500px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}

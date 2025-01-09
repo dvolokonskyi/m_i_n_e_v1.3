@@ -165,7 +165,6 @@ a:hover {
 .imgmain {
     width: 640px;
     height: 339px;
-    display: flex;
 }
 
 .vertiline {
@@ -176,10 +175,6 @@ a:hover {
     top: -12px;
     background-color: wheat;
     border-radius: 5px;
-}
-
-.box6 {
-    background-color: chartreuse;
 }
 
 .box7 {
@@ -272,6 +267,7 @@ a:hover {
 
 .labe:hover {
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .button, #button {
