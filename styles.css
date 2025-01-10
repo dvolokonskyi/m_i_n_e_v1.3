@@ -242,3 +242,63 @@ a {
 .sourcetwo a:hover {
     opacity: 0.6;
 }
+
+.pages {
+    width: 244px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+}
+
+.pages a,
+.one {
+    min-width: 40px;
+    height: 40px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    position: absolute;
+    left: 0px;
+    margin-left: 0px !important;
+    margin-top: 0px;
+    cursor: auto;
+}
+
+.two,
+.three,
+.four {
+    opacity: 0.8;
+}
+
+.two {
+    margin-left: 66px !important;
+}
+
+.four {
+    margin-right: 0px !important;
+}
+
+.two:hover,
+.three:hover,
+.four:hover {
+    opacity: 1 !important;
+}
+
+.two:hover~.one,
+.three:hover~.one,
+.four:hover~.one {
+    opacity: 0.8 !important;
+}
