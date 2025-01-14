@@ -177,10 +177,6 @@ a:hover {
     border-radius: 5px;
 }
 
-.box7 {
-    background-color: darkmagenta;
-}
-
 @keyframes slider {
     0% {
         margin-left: 0;
