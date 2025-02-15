@@ -126,6 +126,9 @@ a {
     font-size: 22px;
     margin-left: 15px;
     color: wheat;
+    border-bottom: 3px solid wheat;
+    padding-bottom: 25px;
+    width: 690px;
 }
 
 .text {
