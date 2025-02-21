@@ -120,6 +120,7 @@ a {
 .back:hover {
     outline: 2px solid wheat;
     opacity: 0.6;
+    transition: 0.5s;
 }
 
 .title {
@@ -244,6 +245,7 @@ a {
 .source a:hover,
 .sourcetwo a:hover {
     opacity: 0.6;
+    transition: 0.5s;
 }
 
 .pages {
@@ -278,12 +280,13 @@ a {
     margin-left: 0px !important;
     margin-top: 0px;
     cursor: auto;
+    box-shadow: whitesmoke 0 0 10px;
 }
 
 .two,
 .three,
 .four {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .two {
@@ -298,10 +301,13 @@ a {
 .three:hover,
 .four:hover {
     opacity: 1 !important;
+    box-shadow: whitesmoke 0 0 10px !important;
+    transition: 0.5s;
 }
 
 .two:hover~.one,
 .three:hover~.one,
 .four:hover~.one {
-    opacity: 0.8 !important;
+    opacity: 0.6 !important;
+    transition: 1s;
 }
