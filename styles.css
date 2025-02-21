@@ -180,7 +180,8 @@ a {
     font-weight: bold;
 }
 
-.slider {
+.slider,
+.sliderl {
     width: 500px;
     height: 281px;
     margin-right: 0px;
@@ -190,7 +191,8 @@ a {
     overflow: hidden;
 }
 
-#slider {
+#slider,
+#sliderl {
     display: flex;
     width: 1000px;
     height: 281px;
@@ -200,7 +202,17 @@ a {
     animation-duration: 16s;
 }
 
-.slider img {
+.sliderl {
+    margin-right: auto !important;
+    margin-left: 0px !important;
+}
+
+#sliderl {
+    animation-delay: 4s;
+}
+
+.slider img,
+.sliderl img {
     min-width: 500px;
     height: 281px;
 }
@@ -240,6 +252,7 @@ a {
     color: wheat;
     font-weight: bold;
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 .source a:hover,
@@ -281,12 +294,14 @@ a {
     margin-top: 0px;
     cursor: auto;
     box-shadow: whitesmoke 0 0 10px;
+    transition: 0.5s;
 }
 
 .two,
 .three,
 .four {
     opacity: 0.6;
+    transition: 0.5s;
 }
 
 .two {
