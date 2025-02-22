@@ -79,7 +79,6 @@ body {
     width: 852px !important;
     backdrop-filter: blur(4px);
     position: relative;
-
 }
 
 .one {
@@ -90,6 +89,11 @@ body {
 
 a {
     text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: 0.5s;
 }
 
 #slider {
@@ -387,10 +391,9 @@ a {
 }
 
 .back:hover {
-    outline: 2px solid wheat;
     opacity: 0.6;
-
 }
+
 .section_title {
     font-size: 22px;
     margin-left: 15px;

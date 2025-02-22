@@ -80,8 +80,13 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+a {
+    transition: 0.5s;
+}
+
 a:hover {
     opacity: 0.6;
+    transition: 0.5s;
 }
 
 li, a {
@@ -130,11 +135,7 @@ label:hover {
     color: wheat;
     font-size: 13px;
     text-decoration: none;
-}
-
-.back:hover {
-    outline: 2px solid wheat;
-    
+    transition: 0.5s;
 }
 
 .content {
@@ -157,10 +158,12 @@ label:hover {
     color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .small_section_title a:hover {
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 .more_specifically{
@@ -206,7 +209,7 @@ label:hover {
 }
 
 .a:hover {
-    opacity: 0.6;
+    opacity: 0.4;
     text-decoration: underline;
 }
 

@@ -84,10 +84,12 @@ a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 16px;
+    transition: 0.5s;
 }
 
 a:hover {
     opacity: 0.6;
+    transition: 0.5s;
 }
 
 .main {
@@ -127,11 +129,6 @@ a:hover {
     color: wheat;
     font-size: 13px;
     text-decoration: none;
-}
-
-.back:hover {
-    outline: 2px solid wheat;
-
 }
 
 .content {

@@ -80,10 +80,14 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-a:hover {
-    opacity: 0.6;
+a {
+    transition: 0.5s;
 }
 
+a:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
 .main {
     display: block;
     margin: auto;
@@ -138,11 +142,6 @@ a:hover {
     color: wheat;
     font-size: 13px;
     text-decoration: none;
-}
-
-.back:hover {
-    outline: 2px solid wheat;
-
 }
 
 .content {

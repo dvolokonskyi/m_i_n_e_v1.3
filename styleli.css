@@ -83,11 +83,13 @@ body {
 a {
     text-decoration: none;
     color: wheat;
+    transition: 0.5s;
 }
 
 a:hover {
     opacity: 0.6;
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 .main {

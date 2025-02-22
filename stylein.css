@@ -85,6 +85,11 @@ body {
 
 a {
     text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    transition: 0.5s;
 }
 
 .sidebar {
@@ -117,7 +122,6 @@ a {
 }
 
 .back:hover {
-    outline: 2px solid wheat;
     opacity: 0.6;
 }
 
