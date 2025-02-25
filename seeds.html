@@ -139,11 +139,22 @@
         </div>
         <p style="margin-top: 25px !important;" class="horyline"></p>
         <div class="pages">
+            <p class="one" title="Ти вже тут">1</p>
             <a class="two" title="Перейти на сторінку" href="seedsp2.html">2</a>
             <a class="three" title="Перейти на сторінку" href="seedsp3.html">3</a>
-            <a class="four"  title="Перейти на сторінку" href="seedsp4.html">4</a>
-            <p class="one" title="Ти вже тут">1</p>
+            <a class="four" title="Перейти на сторінку" href="seedsp4.html">4</a>
         </div>
     </div>
 </body>
+<script>
+    // Підсвічування
+    document.querySelectorAll(".two, .three, .four").forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            document.querySelector(".one").style.opacity = "0.6";
+        });
+        link.addEventListener("mouseleave", () => {
+            document.querySelector(".one").style.opacity = "1";
+        });
+    });
+</script>
 </html>

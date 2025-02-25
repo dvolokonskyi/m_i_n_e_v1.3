@@ -265,7 +265,7 @@ a:hover {
 }
 
 .pages {
-    width: 244px;
+    width: max-content;
     height: 46px;
     margin-left: auto;
     margin-right: auto;
@@ -291,9 +291,6 @@ a:hover {
 }
 
 .one {
-    position: absolute;
-    left: 0px;
-    margin-left: 0px !important;
     margin-top: 0px;
     cursor: auto;
     box-shadow: whitesmoke 0 0 10px;
@@ -307,25 +304,10 @@ a:hover {
     transition: 0.5s;
 }
 
-.two {
-    margin-left: 66px !important;
-}
-
-.four {
-    margin-right: 0px !important;
-}
-
 .two:hover,
 .three:hover,
 .four:hover {
     opacity: 1 !important;
     box-shadow: whitesmoke 0 0 10px !important;
     transition: 0.5s;
-}
-
-.two:hover~.one,
-.three:hover~.one,
-.four:hover~.one {
-    opacity: 0.6 !important;
-    transition: 1s;
 }

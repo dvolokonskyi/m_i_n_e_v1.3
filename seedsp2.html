@@ -15,13 +15,6 @@
         body {
             background-color: rgb(78, 48, 103);
         }
-        .one {
-            left: 66px !important;
-        }
-        .two {
-            margin-left: 0px !important;
-            margin-right: 76px !important;
-        }
     </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -131,10 +124,21 @@
         <p style="margin-top: 25px !important;" class="horyline"></p>
         <div class="pages">
             <a class="two" title="Перейти на сторінку" href="seeds.html">1</a>
+            <p class="one" title="Ти вже тут">2</p>
             <a class="three" title="Перейти на сторінку" href="seedsp3.html">3</a>
             <a class="four" title="Перейти на сторінку" href="seedsp4.html">4</a>
-            <p class="one" title="Ти вже тут">2</p>
         </div>
     </div>
 </body>
+<script>
+    // Підсвічування
+    document.querySelectorAll(".two, .three, .four").forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            document.querySelector(".one").style.opacity = "0.6";
+        });
+        link.addEventListener("mouseleave", () => {
+            document.querySelector(".one").style.opacity = "1";
+        });
+    });
+</script>
 </html>

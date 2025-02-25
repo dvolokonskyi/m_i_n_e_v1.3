@@ -15,12 +15,6 @@
         body {
             background-color: rgb(78, 48, 103);
         }
-        .one {
-            margin-left: 194px !important;
-        }
-        .two {
-            margin-left: 0px !important;
-        }
     </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -143,4 +137,15 @@
         </div>
     </div>
 </body>
+<script>
+    // Підсвічування
+    document.querySelectorAll(".two, .three, .four").forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            document.querySelector(".one").style.opacity = "0.6";
+        });
+        link.addEventListener("mouseleave", () => {
+            document.querySelector(".one").style.opacity = "1";
+        });
+    });
+</script>
 </html>
