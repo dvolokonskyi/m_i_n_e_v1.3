@@ -129,16 +129,9 @@
             <a class="four" title="Перейти на сторінку" href="seedsp4.html">4</a>
         </div>
     </div>
+    <button id="themetoggle">
+        <img height="20px" src="img/night-day.png">
+    </button>
+    <script src="functions_seeds.js"></script>
 </body>
-<script>
-    // Підсвічування
-    document.querySelectorAll(".two, .three, .four").forEach(link => {
-        link.addEventListener("mouseenter", () => {
-            document.querySelector(".one").style.opacity = "0.6";
-        });
-        link.addEventListener("mouseleave", () => {
-            document.querySelector(".one").style.opacity = "1";
-        });
-    });
-</script>
 </html>
