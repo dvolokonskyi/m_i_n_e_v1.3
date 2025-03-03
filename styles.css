@@ -83,7 +83,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: wheat;
     border-radius: 10px;
-    transition: background-color 1s;
 }
 
 body::-webkit-scrollbar-thumb:hover {

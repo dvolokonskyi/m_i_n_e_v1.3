@@ -45,6 +45,33 @@
         zoom: 125%;
     }
 }
+
+.darkmode {
+    background-color: black;
+    opacity: 0.7;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid black;
+    transition: 1s;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.inverted {
+    filter: invert(1);
+}
+
 body::-webkit-scrollbar {
     width: 15px;
 }
@@ -68,41 +95,8 @@ body::-webkit-scrollbar-corner {
 }
 
 body {
-    padding: 1rem;
-    overflow-y: auto;
-    direction: ltr;
-    scrollbar-color: black;
-    scrollbar-width: thin;
-}
-
-body::-webkit-scrollbar {
-    width: 8px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: black;
-    border-radius: 40px;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 40px;
-    background-color: whitesmoke;
-    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
-}
-
-body {
-    font-family: "system-ui";
-    line-height: 1, 4;
-    padding: 1rem;
-    background-color: whitesmoke;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
     font-family: 'Comfortaa', cursive;
+    transition: 1s;
 }
 
 .main {

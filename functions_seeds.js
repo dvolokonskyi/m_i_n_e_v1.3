@@ -27,10 +27,10 @@ themeToggle.addEventListener("click", () => {
     }
 });
 function smoothScrollbarTransition(isDarkMode) {
-    let startColor = isDarkMode ? [78, 48, 103] : [0, 0, 0]; // RGB початкового кольору
-    let endColor = isDarkMode ? [0, 0, 0] : [78, 48, 103];   // RGB кінцевого кольору
-    let steps = 150; // Кількість кроків для анімації
-    let interval = 0; // Час між змінами (мс)
+    let startColor = isDarkMode ? [78, 48, 103] : [0, 0, 0];
+    let endColor = isDarkMode ? [0, 0, 0] : [78, 48, 103];
+    let steps = 150;
+    let interval = 0;
     let step = 0;
     let scrollTrack = document.createElement("style");
     document.head.appendChild(scrollTrack);

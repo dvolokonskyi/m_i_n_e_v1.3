@@ -14,29 +14,6 @@
 	<style>
 		body {
 			background-color: rgb(78, 48, 103);
-			transition: 1s;
-		}
-		.darkmode {
-            background-color: black;
-			opacity: 0.7;
-        }
-		button {
-			width: 40px;
-			height: 40px;
-			border-radius: 40px;
-			position: fixed;
-			right: 10px;
-			bottom: 10px;
-			border: 2px solid black;
-			transition: 1s;
-			cursor: pointer;
-			background-color: whitesmoke;
-		}
-		button:hover {
-			opacity: 0.6;
-		}
-		.inverted {
-			filter: invert(1);
 		}
 	</style>
 </head>
@@ -50,6 +27,10 @@
 	gtag('config', 'G-0EDCD53FKZ');
 </script>
 <body>
+	<button id="themetoggle">
+		<img height="20px" src="img/night-day.png">
+	</button>
+	<script src="functions_seeds.js"></script>
 	<div class="main">
 		<div class="all"> <!--Slider-->
             <input checked type="radio" name="respond" id="desktop">
@@ -141,28 +122,5 @@
 	<div class="Updates_required">
 		<img src="img/Updates_required.png" height="120px">
 	</div>
-	<button id="themetoggle">
-		<img height="20px" src="img/night-day.png">
-	</button>
-	<script>
-        const themeToggle = document.getElementById("themetoggle");
-		const isDarkMode = localStorage.getItem("darkMode") === "enabled";
-
-		if (isDarkMode) {
-			document.body.classList.add("darkmode");
-			themeToggle.classList.add("inverted");
-		}
-
-		themeToggle.addEventListener("click", () => {
-			document.body.classList.toggle("darkmode");
-			themeToggle.classList.toggle("inverted");
-
-			if (document.body.classList.contains("darkmode")) {
-				localStorage.setItem("darkMode", "enabled");
-			} else {
-				localStorage.removeItem("darkMode");
-			}
-		});
-    </script>
 </body>
 </html>

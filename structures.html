@@ -27,6 +27,10 @@
     gtag('config', 'G-0EDCD53FKZ');
 </script>
 <body>
+    <button id="themetoggle">
+        <img height="20px" src="img/night-day.png">
+    </button>
+    <script src="functions_seeds.js"></script>
     <div class="main">
         <div class="sidebar">
             <div class="logo">
@@ -98,15 +102,4 @@
         </div>
     </div>
 </body>
-<script>
-    // Підсвічування
-    document.querySelectorAll(".two, .three, .four").forEach(link => {
-        link.addEventListener("mouseenter", () => {
-            document.querySelector(".one").style.opacity = "0.6";
-        });
-        link.addEventListener("mouseleave", () => {
-            document.querySelector(".one").style.opacity = "1";
-        });
-    });
-</script>
 </html>
