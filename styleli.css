@@ -1,55 +1,47 @@
 @media screen and (min-width: 500px) and (max-width: 600px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 50%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 60%;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 70%;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 900px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 80%;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1029px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 90%;
     }
 }
 
 @media screen and (min-width: 1029px) and (max-width: 1285px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: normal;
     }
 }
 
 @media screen and (min-width: 1285px) and (max-width: 1680px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 115%;
     }
 }
 
 @media screen and (min-width: 1680px) and (max-width: 7685px) {
-    .main,
-    .backtoup {
+    .main {
         zoom: 125%;
     }
 }
@@ -357,11 +349,11 @@ label:hover {
 
 .backtoup {
     position: fixed;
-    bottom: 20px;
-    right: 15px;
-    border-radius: 50px;
-    height: 60px;
-    width: 60px;
+    bottom: 60px;
+    right: 10px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
 }
 
 .backtoup img {

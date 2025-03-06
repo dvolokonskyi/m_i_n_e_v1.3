@@ -141,20 +141,22 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.back {
-    position: absolute;
-    top: 78px;
-    right: 5px;
-    padding-top: 5px;
-    padding: 2px;
-    border-radius: 3px;
-    color: wheat;
-    font-size: 13px;
-    text-decoration: none;
+.backtoup {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
 }
 
-.back:hover {
-    opacity: 0.6;
+.backtoup img {
+    rotate: 270deg;
+}
+
+.backtoup:hover,
+.backtoup a:hover {
+    opacity: 0.7;
 }
 
 .section_title {
@@ -262,22 +264,4 @@ a:hover {
     font-size: 16px;
     font-weight: 700;
     color: whitesmoke;
-}
-
-.backtoup {
-    position: fixed;
-    bottom: 20px;
-    right: 15px;
-    border-radius: 50px;
-    height: 60px;
-    width: 60px;
-}
-
-.backtoup img {
-    rotate: 270deg;
-}
-
-.backtoup:hover,
-.backtoup a:hover {
-    opacity: 0.7 !important;
 }
