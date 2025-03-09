@@ -338,3 +338,32 @@ a:hover {
     box-shadow: whitesmoke 0 0 10px !important;
     transition: 0.5s;
 }
+
+.copy-text {
+    cursor: pointer;
+    font-weight: 100 !important;
+    text-decoration: underline;
+}
+
+.copy-text:hover {
+    opacity: 0.6;
+}
+
+.toast {
+    display: none;
+    min-width: 120px;
+    background-color: dimgray;
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    left: 46.25%;
+    bottom: 30px;
+    z-index: 1000;
+}
+
+.toast.show {
+    display: block;
+}

@@ -1,4 +1,4 @@
-    // Підсвічування
+    // Glow
 document.querySelectorAll(".two, .three, .four").forEach(link => {
     link.addEventListener("mouseenter", () => {
         document.querySelector(".one").style.opacity = "0.6";
@@ -7,7 +7,7 @@ document.querySelectorAll(".two, .three, .four").forEach(link => {
         document.querySelector(".one").style.opacity = "1";
     });
 });
-    // Темна тема
+    // Dark mode
 const themeToggle = document.getElementById("themetoggle");
 const isDarkMode = localStorage.getItem("darkMode") === "enabled";
 
@@ -51,4 +51,20 @@ function smoothScrollbarTransition(isDarkMode) {
         `;
         step++;
     }, interval);
+}
+    // Copy ready for pasta!
+function copyText(element) {
+    let text = element.innerText;
+    navigator.clipboard.writeText(text).then(() => {
+        showToast("Текст скопійовано!");
+    });
+}
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    toast.textContent = message;
+    toast.classList.add("show");
+
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 2500);
 }
