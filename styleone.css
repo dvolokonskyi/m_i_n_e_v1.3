@@ -427,3 +427,7 @@ label, a {
         cursor: pointer;
     }
 }
+
+#themetoggle {
+    z-index: 99;
+}

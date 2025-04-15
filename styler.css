@@ -430,3 +430,7 @@ a:hover {
     font-size: 16px;
     font-weight: bold;
 }
+
+#themetoggle {
+    z-index: 99;
+}

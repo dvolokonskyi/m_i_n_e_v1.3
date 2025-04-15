@@ -495,3 +495,8 @@ label:hover {
     padding-right: 12px;
     font-weight: bolder;
 }
+
+#themetoggle,
+.backtoup {
+    z-index: 1.9;
+}

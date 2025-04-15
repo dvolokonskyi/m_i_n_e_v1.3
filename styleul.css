@@ -271,3 +271,7 @@ label:hover {
     margin-top: -20px;
     color: wheat;
 }
+
+#themetoggle {
+    z-index: 99;
+}

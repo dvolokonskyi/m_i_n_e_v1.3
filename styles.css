@@ -367,3 +367,7 @@ a:hover {
 .toast.show {
     display: block;
 }
+
+#themetoggle {
+    z-index: 99;
+}

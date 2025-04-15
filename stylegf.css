@@ -410,3 +410,7 @@ body {
 .source:hover {
     opacity: 0.6;
 }
+
+#themetoggle {
+    z-index: 1.9;
+}

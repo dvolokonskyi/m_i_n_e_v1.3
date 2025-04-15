@@ -352,3 +352,7 @@ a:hover {
     font-weight: 700;
     color: whitesmoke;
 }
+
+#themetoggle {
+    z-index: 1.9;
+}

@@ -299,3 +299,8 @@ label:hover {
     color: wheat;
     font-weight: 800;
 }
+
+#themetoggle,
+.backtoup {
+    z-index: 99;
+}

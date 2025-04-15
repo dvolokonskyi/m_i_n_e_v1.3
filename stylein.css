@@ -208,3 +208,7 @@ a:hover {
 .to:hover {
     opacity: 0.6;
 }
+
+#themetoggle {
+    z-index: 99;
+}

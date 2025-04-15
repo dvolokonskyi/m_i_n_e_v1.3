@@ -265,3 +265,8 @@ a:hover {
     font-weight: 700;
     color: whitesmoke;
 }
+
+#themetoggle,
+.backtoup {
+    z-index: 1.9;
+}

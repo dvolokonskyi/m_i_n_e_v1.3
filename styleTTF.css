@@ -373,3 +373,7 @@ label:hover {
     font-weight: bolder;
     font-size: 18px;
 }
+
+#themetoggle {
+    z-index: 99;
+}
