@@ -273,17 +273,19 @@ a:hover {
     color: whitesmoke;
 }
 
-.text {
+.text,
+.textt {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-out;
 }
 
-#toggle:checked~.text {
+#toggle:checked~.text,
+#togglet:checked~.textt {
     max-height: min-content;
 }
 
-#toggle:checked~.what {
+#toggle:checked~.what
+#togglet:checked~.whatt {
     opacity: 0.6;
 }
 
@@ -291,9 +293,10 @@ label:hover {
     opacity: 0.6;
 }
 
-.what {
+.what,
+.whatt {
     font-size: 16px;
-    color: wheat;
+    color: whitesmoke;
     font-weight: bold;
     padding-left: 10px;
     text-decoration: none;
@@ -302,36 +305,34 @@ label:hover {
 }
 
 .text {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 0 25px 0 25px;
+    display: flex;
+    width: 760px;
+}
+
+.textt {
     text-indent: 6px;
     color: whitesmoke;
     font-size: 15px;
     font-weight: 500;
     text-align: justify;
-    padding-left: 2px;
-    padding-right: 5px;
-    display: flex;
-    width: 650px;
+    margin: 0 15px 0 15px;
+    width: 780px;
 }
 
 .text ul {
     padding-left: 15px;
     text-align: left;
     margin-left: 0px;
-    font-weight: bold;
     line-height: 175%;
 }
 
 .text a {
     color: whitesmoke;
-}
-
-.line {
-    margin-left: auto;
-    margin-right: auto;
-    width: 3px;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    height: 100px;
 }
 
 .smal {
@@ -343,6 +344,14 @@ label:hover {
     min-width: 780px;
     margin-left: 5px;
     margin-right: 5px;
+    height: 3px;
+    border-radius: 3px;
+}
+
+.shoryline {
+    background-color: wheat;
+    width: 680px;
+    margin-left: 5px;
     height: 3px;
     border-radius: 3px;
 }
