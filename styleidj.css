@@ -356,3 +356,112 @@ a:hover {
 #themetoggle {
     z-index: 1.9;
 }
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 3px;
+    border-radius: 3px;
+}
+
+.section_title {
+    font-size: 18px;
+    margin-left: 28px;
+    color: wheat;
+}
+
+.specifically {
+    text-indent: 8px;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    max-height: 0;
+    overflow: hidden;
+    text-indent: 6px;
+}
+
+#toggle:checked~.text {
+    max-height: min-content;
+    margin-top: -15px;
+}
+
+#toggle:checked~.labe {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    color: wheat;
+    font-weight: bold;
+    height: min-content;
+    overflow: visible;
+}
+
+#toggle:checked~.labe span {
+    display: none;
+}
+
+.hidetext {
+    opacity: 0;
+    display: none;
+    font-style: italic;
+}
+
+#toggle:checked~.labe .hidetext {
+    opacity: 1 !important;
+    display: block !important;
+}
+
+#toggle:checked~.labe:hover {
+    border-bottom: none;
+    opacity: 0.6;
+}
+
+.labe {
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+.labe {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-left: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a {
+    opacity: 1;
+}
+
+.b {
+    opacity: 0.9;
+}
+
+.c {
+    opacity: 0.8;
+}
+
+.d {
+    opacity: 0.7;
+}
+
+.e {
+    opacity: 0.6;
+}
+
+.f {
+    opacity: 0.5;
+}
+
+.g {
+    opacity: 0.4;
+}
+
+.h {
+    opacity: 0.3;
+}
