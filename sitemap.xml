@@ -305,18 +305,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://m-i-n-e.com/pagefive.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/pageone.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/pagethree.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/pagetwo.html</loc>
-  </url>
-  <url>
     <loc>https://m-i-n-e.com/raidfarm.html</loc>
   </url>
   <url>
@@ -334,9 +322,6 @@
   <url>
     <loc>https://m-i-n-e.com/seedsp4.html</loc>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/structures.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/usefull.html</loc>
