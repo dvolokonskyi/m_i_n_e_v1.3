@@ -185,6 +185,17 @@ a:hover {
     border-radius: 8px;
 }
 
+.modlink {
+    text-align: center;
+    width: 802px;
+}
+
+.modlink img {
+    width: 16px !important;
+    border-radius: 2px !important;
+    margin-bottom: -1px;
+}
+
 .g{
     color: black;
     font-weight: bold;
@@ -294,104 +305,6 @@ label:hover {
 .backtoup:hover,
 .backtoup a:hover {
     opacity: 0.7;
-}
-
-/* Випадаючі меню завантажень */ 
-
-.flexd {
-    display: flex;
-}
-
-.texttwo,
-.textthree {
-    max-height: 0;
-    display: flex;
-    overflow: hidden;
-    text-indent: 6px;
-}
-
-#toggletwo:checked~.texttwo,
-#togglethree:checked~.textthree {
-    max-height: min-content;
-    margin-top: -10px;
-}
-
-#toggletwo:checked~.labetwo,
-#togglethree:checked~.labethree {
-    position: absolute;
-    bottom: -10px;
-    left: 10px;
-    color: wheat;
-    font-weight: bold;
-    height: min-content;
-    overflow: visible;
-}
-
-#toggletwo:checked~.labetwo span,
-#togglethree:checked~.labethree span {
-    display: none;
-}
-
-.hidetexttwo,
-.hidetextthree {
-    opacity: 0;
-    display: none;
-    font-style: italic;
-}
-
-#toggletwo:checked~.labetwo .hidetexttwo,
-#togglethree:checked~.labethree .hidetextthree {
-    opacity: 1 !important;
-    display: block !important;
-    
-}
-
-#toggletwo:checked~.labetwo:hover,
-#togglethree:checked~.labethree:hover {
-    border-bottom: none;
-    opacity: 0.6;
-}
-
-.labetwo:hover,
-.labethree:hover {
-    border-bottom: 2px solid wheat;
-}
-
-.labetwo,
-.labethree {
-    font-size: 16px;
-    color: wheat;
-    font-weight: bold;
-    margin-left: 8px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.stick {
-    width: 1.5px;
-    height: 83px;
-    margin-top: 13px;
-    background-color: whitesmoke;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-.texttwo div p,
-.textthree div p {
-    margin-top: 12px;
-    margin-bottom: 12px;
-    border-bottom: 2px solid whitesmoke;
-    width: 180px;
-}
-
-.texttwo a,
-.textthree a {
-    color: whitesmoke;
-}
-
-.texttwo a:hover,
-.textthree a:hover {
-    text-decoration: none;
 }
 
 .rel {
