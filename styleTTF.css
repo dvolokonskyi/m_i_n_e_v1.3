@@ -233,7 +233,6 @@ li {
 .options { /* Плавне розгортання */
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease-out;
 }
 
 #toggle:checked~.text,
@@ -255,11 +254,12 @@ label:hover {
 }
 
 .load {
+    font-size: 16px;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: none;
     cursor: pointer;
     text-decoration: underline;
-    color: wheat;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .what {
@@ -271,8 +271,7 @@ label:hover {
     cursor: pointer;
 }
 
-.text,
-.options {
+.text {
     text-indent: 6px;
     color: whitesmoke;
     font-size: 15px;
@@ -282,27 +281,27 @@ label:hover {
     padding-right: 5px;
 }
 
-.f {
+.options {
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    width: 760px;
+}
+
+.options div {
     display: flex;
     margin-top: -15px;
 }
 
 .options li {
-    list-style-type: none;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: -40px;
-    width: 200px;
+    text-align: left;
+    margin-left: 0px;
+    line-height: 175%;
 }
 
 .options a {
     text-decoration: none !important;
-}
-
-.stick {
-    width: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .info {
