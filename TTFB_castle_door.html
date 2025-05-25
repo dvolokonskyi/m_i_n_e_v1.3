@@ -17,10 +17,16 @@
         body {
             background-color: rgb(78, 48, 103);
         }
-        img {
+        .specifica span {
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 20px;
+            margin-top: 20px;
+            width: 190px;
+            height: 190px;
+        }
+        .specifica span img {
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -58,11 +64,11 @@
             <div class="flex">
                 <div id="TTFBf">
                     <ul style="width: 280px;">
-                        <li><span>Прозорість</span>: ні</li>
+                        <li><span>Прозорість</span>: так (якщо ативовано)</li>
                         <li><span>Світіння</span>: ні</li>
-                        <li><span>Міцність</span>: </li>
-                        <li><span>Вибухостійкість</span>: </li>
-                        <li><span>ID:</span> twilightforest:castle_door</li>
+                        <li><span>Міцність</span>: 100</li>
+                        <li><span>Вибухостійкість</span>: 50</li>
+                        <li><span>ID:</span> twilightforest:blue_castle_door</li>
                     </ul>
                     <ul>
                         <li><span>Інструмент</span>: кайло</li>
@@ -75,10 +81,22 @@
             </div>
             <div>
                 <p class="horyline"></p>
-                <div style="display: flex;">
-                    <img src="img/TTFblocksimg/Pink_Castle_Door.png">
-                    <img src="img/TTFblocksimg/Violet_Castle_Door.png">
-                    <img src="img/TTFblocksimg/Yellow_Castle_Door.png">
+                <p class="small_section_title">
+                    Різновиди
+                </p>
+                <div class="specifica" style="display: flex;">
+                    <span>
+                        <img src="img/TTFblocksimg/Pink_Castle_Door.png">
+                        <p>ID: pink_castle_door</p>
+                    </span>
+                    <span>
+                        <img src="img/TTFblocksimg/Violet_Castle_Door.png">
+                        <p>ID: violet_castle_door</p>
+                    </span>
+                    <span>
+                        <img src="img/TTFblocksimg/Yellow_Castle_Door.png">
+                        <p>ID: yellow_castle_door</p>
+                    </span>                   
                 </div>
             </div>
         </div>
