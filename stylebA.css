@@ -1,0 +1,372 @@
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .main {
+        zoom: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .main {
+        zoom: 60%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .main {
+        zoom: 70%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .main {
+        zoom: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1029px) {
+    .main {
+        zoom: 90%;
+    }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1285px) {
+    .main {
+        zoom: normal;
+    }
+}
+
+@media screen and (min-width: 1285px) and (max-width: 1680px) {
+    .main {
+        zoom: 115%;
+    }
+}
+
+@media screen and (min-width: 1680px) and (max-width: 7685px) {
+    .main {
+        zoom: 125%;
+    }
+}
+
+.darkmode {
+    background-color: black;
+    opacity: 0.7;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 2px solid black;
+    transition: 1s;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.inverted {
+    filter: invert(1);
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(78, 48, 103);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(245, 222, 179, 0.8);
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: rgb(78, 48, 103);
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    padding-top: 15px;
+    transition: 1s;
+}
+
+.main {
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    padding: 5px;
+    width: 852px !important;
+    height: auto;
+    backdrop-filter: blur(4px);
+    position: relative;
+}
+
+a {
+    transition: 0.5s;
+    color: wheat;
+}
+
+a:hover {
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.sidebar {
+    width: 138px !important;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+.logo {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
+    padding-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.back:hover {
+    opacity: 0.6;
+}
+
+.title {
+    font-size: 22px;
+    margin-left: 15px;
+    color: wheat;
+    width: 690px;
+}
+
+.text {
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.flex {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+
+.img {
+    width: 500px;
+    height: 281px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.specificalities {
+    text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 282px;
+}
+
+.slider,
+.sliderl {
+    width: 500px;
+    height: 281px;
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#slider,
+#sliderl {
+    display: flex;
+    width: 1500px;
+    height: 281px;
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 21s;
+}
+
+.sliderl {
+    margin-right: auto !important;
+    margin-left: 0px !important;
+}
+
+#sliderl {
+    animation-delay: 1s;
+}
+
+.slider img,
+.sliderl img {
+    min-width: 500px;
+    height: 281px;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0px;
+    }
+
+    32% {
+        margin-left: 0px;
+    }
+
+    33% {
+        margin-left: -500px;
+    }
+
+    65% {
+        margin-left: -500px;
+    }
+
+    66% {
+        margin-left: -1000px;
+    }
+
+    99% {
+        margin-left: -1000px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+#themetoggle {
+    z-index: 99;
+}
+
+.pages {
+    width: max-content;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    position: relative;
+}
+
+.pages a,
+.one {
+    min-width: 40px;
+    height: 40px;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.one {
+    margin-top: 0px;
+    cursor: auto;
+    box-shadow: whitesmoke 0 0 10px;
+    transition: 0.5s;
+}
+
+.two,
+.three,
+.four {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+/*
+.two:hover,
+.three:hover,
+.four:hover {
+    opacity: 1 !important;
+    box-shadow: whitesmoke 0 0 10px !important;
+    transition: 0.5s;
+}
+*/
+
+.modlink {
+    text-align: center;
+    width: 802px;
+    padding-bottom: 15px;
+}
+
+.modlink a {
+    font-weight: bold;
+}
+
+.quote {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 18px;
+    padding-left: 12px;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-left: 5px solid rgba(255, 0, 0, 0.7);
+    border-radius: 5px;
+    height: max-content;
+}
+
+.margn {
+    padding-top: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.mini_title {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    text-align: center;
+}
+
+.text_box {
+    width: 300px;
+    height: 281px;
+}
+
+.text_box a {
+    position: absolute;
+    bottom: 0px;
+    font-weight: bold;
+}
