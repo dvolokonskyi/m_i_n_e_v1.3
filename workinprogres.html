@@ -102,12 +102,11 @@
       from {transform: rotate(0deg); }
       to {transform: rotate(360deg);}
     }
-    .text,
-    .text a {
+    .text {
       text-align: center;
       font-size: 18px;
-      margin-top: 10px;
       color: wheat;
+      display: grid;
     }
     a:hover {
       opacity: 0.6;
@@ -116,6 +115,9 @@
       color: wheat;
       font-weight: bold;
       text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -130,8 +132,9 @@
     </div>  
   </div>
   <div class="text">
-    <p>Вибач, сторінка ще не готова.</p>
+    <span>Вибач, сторінка ще не готова.</span>
     <a class="back" href="index.html">На головну</a>
+    <a class="back" href="#" onclick="history.back(); return false;">Назад</a>
   </div>
 </body>
 </html>

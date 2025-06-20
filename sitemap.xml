@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://m-i-n-e.com/blocksid.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/blocksidjava.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/builds_Abv192.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/farms.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/game_features.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/goldfarm.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/gunpowderfarm.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/hotkeys.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/how_to_train_your_dragon.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/howtofind.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/index.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/ironfarm.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/litematic.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/mca_selector.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/pagefive.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/raidfarm.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seeds.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seedsp2.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seedsp3.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seedsp4.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seedsp5.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/seedsp6.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/The_Twilight_Forest.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFB_antibuilder.html</loc>
   </url>
   <url>
@@ -20,6 +89,9 @@
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFB_cicada_jar.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFB_encased_fire_jet.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFB_etched_nagastone.html</loc>
@@ -46,6 +118,9 @@
     <loc>https://m-i-n-e.com/TTFB_giant_obsidian.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFB_hedge.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFB_huge_lilypad.html</loc>
   </url>
   <url>
@@ -64,10 +139,22 @@
     <loc>https://m-i-n-e.com/TTFB_knightmetal_block.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFB_liveroot_block.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFB_locked_vanishing_block.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFB_rainy_cloud.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFB_reappearing_block.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFB_smoker.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFB_sorting_log_core.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFB_steeleaf_block.html</loc>
@@ -76,10 +163,13 @@
     <loc>https://m-i-n-e.com/TTFB_time_log_core.html</loc>
   </url>
   <url>
-    <loc>https://m-i-n-e.com/TTFB_uncrafting_table.html</loc>
+    <loc>https://m-i-n-e.com/TTFB_vanishing_block.html</loc>
   </url>
   <url>
-    <loc>https://m-i-n-e.com/TTFB_vanishing_block.html</loc>
+    <loc>https://m-i-n-e.com/TTFblocks.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFlocations.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFM_adherent.html</loc>
@@ -241,91 +331,13 @@
     <loc>https://m-i-n-e.com/TTFM_yeti.html</loc>
   </url>
   <url>
-    <loc>https://m-i-n-e.com/TTFblocks.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/TTFlocations.html</loc>
-  </url>
-  <url>
     <loc>https://m-i-n-e.com/TTFmobs.html</loc>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFprogression.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/The_Twilight_Forest.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/blocksid.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/blocksidjava.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/farms.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/game_features.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/goldfarm.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/gunpowderfarm.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/how_to_train_your_dragon.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/howtofind.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/ironfarm.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/litematic.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/mca_selector.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/raidfarm.html</loc>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/seeds.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/seedsp2.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/seedsp3.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://m-i-n-e.com/seedsp4.html</loc>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://m-i-n-e.com/usefull.html</loc>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://m-i-n-e.com/usefullpacks.html</loc>
@@ -334,6 +346,4 @@
     <loc>https://m-i-n-e.com/usefullshaders.html</loc>
   </url>
   <url>
-    <loc>https://m-i-n-e.com/usefullsites.html</loc>
-  </url>
 </urlset>
