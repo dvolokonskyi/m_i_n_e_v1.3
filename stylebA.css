@@ -186,14 +186,6 @@ a:hover {
     position: relative;
 }
 
-.img {
-    width: 500px;
-    height: 281px;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .specificalities {
     text-indent: 8px;
     color: whitesmoke;
@@ -236,6 +228,14 @@ a:hover {
 .sliderl img {
     min-width: 500px;
     height: 281px;
+}
+
+.single {
+    min-width: 500px;
+    height: 281px;
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 8px;
 }
 
 @keyframes slider {
@@ -312,7 +312,7 @@ a:hover {
     opacity: 0.6;
     transition: 0.5s;
 }
-/*
+
 .two:hover,
 .three:hover,
 .four:hover {
@@ -320,7 +320,6 @@ a:hover {
     box-shadow: whitesmoke 0 0 10px !important;
     transition: 0.5s;
 }
-*/
 
 .modlink {
     text-align: center;
