@@ -1,0 +1,447 @@
+﻿Acacia banister - Акацієві бильця
+Alpha Yeti boss spawner - Спавнер Альфа Єті
+Alpha Yeti trophy - Трофей Альфа Єті
+Antibuilder - Антибудівельник
+Antibuilt block - Антибудівельний блок
+Arctic fur block - Блок арктичного хутра
+Aurora block - Блок Аврори
+Aurora pillar - Колона Аврори
+Aurora slab - Плита Аврори
+Auroralized glass - Авроралізоване скло
+Bamboo banister - Бамбукові бильця
+Beanstalk leaves - Листя бобового стебла
+Birch banister - Березові бильця
+Blue castle door - Сині двері замку
+Blue castle rune brick - Рунічна синя цегла замку
+Blue force field - Синє силове поле
+Bold castle brick pillar - Рельєфна колона цегли замку
+Bold castle brick stairs - Рельєфні сходи з цегли замку
+Bold castle brick tile - Рельєфний кахель цегляного замку
+Bold stone pillar - Рельєфна кам'яна колона
+Brown thorns - Шипи
+Built block - Вбудований блок
+Burnt thorns - Обпалені шипи
+Candelabra - Канделябр
+Canopy banister - Бильця з наметового дерева
+Canopy bookshelf - Книжкова полиця з наметового дерева
+Canopy button - Кнопка з наметового дерева
+Canopy chest - Скриня з наметового дерева
+Canopy door - Двері з наметового дерева
+Canopy fence - Паркан із наметового дерева
+Canopy fence gate - Хвіртка з наметового дерева
+Canopy hanging sign - Вивіска з наметового дерева
+Canopy leaves - Листя наметового дерева
+Canopy log - Колода наметового дерева
+Canopy planks - Дошки з наметового дерева
+Canopy pressure plate - Натискна плита з наметового дерева
+Canopy sapling - Паросток наметового дерева
+Canopy sign - Табличка з наметового дерева
+Canopy slab - Плита з наметового дерева
+Canopy stairs - Сходи з наметового дерева
+Canopy trapdoor - Люк із наметового дерева
+Canopy wall hanging sign - Настінна вивіска з наметового дерева
+Canopy wall sign - Настінна табличка з наметового дерева
+Canopy wood - Деревина наметового дерева
+Carminite block - Блок карміну
+Carminite builder - Карміновий будівельник
+Carminite reactor - Карміновий реактор
+Castle brick - Цегла замку
+Castle brick stairs - Сходи з цегли замку
+Castle roof tile - Черепиця замку
+Cherry banister - Вишневі бильця
+Cicada - Цикада
+Cicada jar - Банка з цикадою
+Cinder furnace - Шлакова піч
+Cinder log - Шлакова колода
+Cinder wood - Шлакова деревина
+Clover patch - Конюшиновий клаптик
+Cracked castle brick - Тріснута цегла замку
+Cracked castle brick stairs - Сходи з тріснутої цегли замку
+Cracked deadrock - Тріснутий мертвокамінь
+Cracked etched nagastone - Тріснутий гравірований нагакамінь
+Cracked mazestone - Тріснута цегла з лабіринтового каменю
+Cracked nagastone pillar - Тріснута колона з нагакамню
+Cracked nagastone stairs left - Тріснуті сходи з нагакамню (ліва)
+Cracked nagastone stairs right - Тріснуті сходи з нагакамню (права)
+Cracked towerwood - Тріснуті дошки з темної вежі
+Cracked underbrick - Тріснутий підцеглянник
+Creeper skull candle - Голова кріпера зі свічкою
+Creeper wall skull candle - Настінна голова кріпера зі свічкою
+Crimson banister - Багряні бильця
+Cut mazestone - Тесаний лабіринтовий камінь
+Dark banister - Темно-дерев'яні бильця
+Dark button - Темно-дерев'яна кнопка
+Dark chest - Темно-дерев'яна скриня
+Dark door - Темно-дерев'яні двері
+Dark fence - Темно-дерев'яний паркан
+Dark fence gate - Темно-дерев'яна хвіртка
+Dark hanging sign - Темно-дерев'яна вивіска
+Dark leaves - Листя темного дерева
+Dark log - Темно-дерев'яна колода
+Dark oak banister - Темно-дубові бильця
+Dark planks - Темно-дерев'яні дошки
+Dark pressure plate - Темно-дерев'яна натискна плита
+Dark sign - Темно-дерев'яна табличка
+Dark slab - Темно-дерев'яна плита
+Dark stairs - Темно-дерев'яні сходи
+Dark trapdoor - Темно-дерев'яний люк
+Dark wall hanging sign - Темно-дерев'яна настінна вивіска
+Dark wall sign - Темно-дерев'яна настінна табличка
+Dark wood - Темно-дерев'яна деревина
+Darkwood sapling - Паросток темного дерева
+Deadrock - Мертвокамінь
+Death tome spawner - Спавнер смертельного фоліанта
+Decorative mazestone - Декоративна цегла з лабіринтового каменю
+Empty canopy bookshelf - Порожня книжкова полиця з наметового дерева
+Encased castle brick pillar - Облицьована колона цегли замку
+Encased castle brick stairs - Облицьовані сходи з цегли замку
+Encased castle brick tile - Облицьовані кахлі цегли замку
+Encased fire jet - Закритий вогнеструйний струмінь
+Encased smoker - Закритий блок диму
+Encased towerwood - Посиленні дошки з темної вежі
+Etched nagastone - Гравірований нагакамінь
+Experiment 115 - Експеримент 115
+Fake diamond - Діамантовий блок
+Fake gold - Золотий блок
+Fallen leaves - Опале листя
+Fiddlehead - Рахіси папороті
+Fiery block - Блок вогняного металу
+Final boss spawner - Спавнер фінального босу
+Fire jet - Блок вогню
+Firefly - Світлячок
+Firefly jar - Банка зі світлячком
+Firefly particle spawner - Спавнер частинок світлячка в банці
+Fluffy cloud - Пухнаста хмаринка
+Ghast trap - Пастка для ґаста
+Giant cobblestone - Гігантський кругляк
+Giant leaves - Гігантське дубове листя
+Giant log - Гігантська дубова колода
+Giant obsidian - Гігантський обсидіан
+Green force field - Зелене силове поле
+Green thorns - Зелені шипи
+Hardened dark leaves - Густе листя темного дерева
+Hedge - Живопліт
+Hollow acacia log climbable - Порожниста акацієва колода
+Hollow acacia log horizontal - Порожниста акацієва колода
+Hollow acacia log vertical - Порожниста акацієва колода
+Hollow birch log climbable - Порожниста березова колода
+Hollow birch log horizontal - Порожниста березова колода
+Hollow birch log vertical - Порожниста березова колода
+Hollow canopy log climbable - Порожниста колода наметового дерева
+Hollow canopy log horizontal - Порожниста колода наметового дерева
+Hollow canopy log vertical - Порожниста колода наметового дерева
+Hollow cherry log climbable - Порожниста вишнева колода
+Hollow cherry log horizontal - Порожниста вишнева колода
+Hollow cherry log vertical - Порожниста вишнева колода
+Hollow crimson stem climbable - Порожнисте багряне стебло
+Hollow crimson stem horizontal - Порожнисте багряне стебло
+Hollow crimson stem vertical - Порожнисте багряне стебло
+Hollow dark log climbable - Порожниста темнодерев'яна колода
+Hollow dark log horizontal - Порожниста темнодерев'яна колода
+Hollow dark log vertical - Порожниста темнодерев'яна колода
+Hollow dark oak log climbable - Порожниста темно-дубова колода
+Hollow dark oak log horizontal - Порожниста темно-дубова колода
+Hollow dark oak log vertical - Порожниста темнодубова колода
+Hollow jungle log climbable - Порожниста тропічна колода
+Hollow jungle log horizontal - Порожниста тропічна колода
+Hollow jungle log vertical - Порожниста тропічна колода
+Hollow mangrove log climbable - Порожниста сутінково-мангрова колода
+Hollow mangrove log horizontal - Порожниста сутінково-мангрова колода
+Hollow mangrove log vertical - Порожниста сутінково-мангрова колода
+Hollow mining log climbable - Порожниста колода з шахтарського дерева
+Hollow mining log horizontal - Порожниста колода з шахтарського дерева
+Hollow mining log vertical - Порожниста колода з шахтарського дерева
+Hollow oak log climbable - Порожниста дубова колода
+Hollow oak log horizontal - Порожниста дубова колода
+Hollow oak log vertical - Порожниста дубова колода
+Hollow oak sapling - Міцний паросток сутінкового дуба
+Hollow sorting log climbable - Порожниста колода з сортувального дерева
+Hollow sorting log horizontal - Порожниста колода з сортувального дерева
+Hollow sorting log vertical - Порожниста колода з сортувального дерева
+Hollow spruce log climbable - Порожниста смерекова колода
+Hollow spruce log horizontal - Порожниста смерекова колода
+Hollow spruce log vertical - Порожниста смерекова колода
+Hollow time log climbable - Порожниста колода часодерева
+Hollow time log horizontal - Порожниста колода часодерева
+Hollow time log vertical - Порожниста колода часодерева
+Hollow transformation log climbable - Порожниста колода з дерева перетворення
+Hollow transformation log horizontal - Порожниста колода з дерева перетворення
+Hollow transformation log vertical - Порожниста колода з дерева перетворення
+Hollow twilight oak log climbable - Порожниста сутінково-дубова колода
+Hollow twilight oak log horizontal - Порожниста сутінково-дубова колода
+Hollow twilight oak log vertical - Порожниста сутінково-дубова колода
+Hollow vangrove log climbable - Порожниста мангрова колода
+Hollow vangrove log horizontal - Порожниста мангрова колода
+Hollow vangrove log vertical - Порожниста мангрова колода
+Hollow warped stem climbable - Порожнисте химерне стебло
+Hollow warped stem horizontal - Порожнисте химерне стебло
+Hollow warped stem vertical - Порожнисте химерне стебло
+Huge lily pad - Величезне латаття
+Huge mushgloom - Величезне стебло сутінкового світлогриба
+Huge mushgloom stem - Величезне стебло сутінкового світлогриба
+Huge stalk - Величезне стебло
+Huge water lily - Величезна водяна лілія
+Hydra boss spawner - Спавнер Гідри
+Hydra trophy - Трофей Гідри
+Infested towerwood - Заражені дошки з темної вежі
+Iron ladder - Залізна драбина
+Ironwood block - Блок залізного дерева
+Jungle banister - Тропічні бильця
+Keepsake casket - Скринька пам'яті
+Knight phantom boss spawner - Спавнер Лицаря Фантома
+Knight phantom trophy - Трофей Лицаря Фантома
+Knightmetal block - Блок лицарського металу
+Knightmetal block.desc - Працює як посилений кактус
+Lich boss spawner - Спавнер Ліча
+Lich tower miniature structure - Мініатюрна вежа Ліча
+Lich trophy - Трофей Ліча
+Liveroot block - Блок живокоріня
+Locked vanishing block - Заблокований блок, що зникає
+Mangrove banister - Сутінково-мангрові бильця
+Mangrove button - Сутінково-мангрова кнопка
+Mangrove chest - Сутінково-мангрова скриня
+Mangrove door - Сутінково-мангрові двері
+Mangrove fence - Сутінково-мангровий паркан
+Mangrove fence gate - Сутінково-мангрова хвіртка
+Mangrove hanging sign - Сутінково-мангрова вивіска
+Mangrove leaves - Сутінково-мангрове листя
+Mangrove log - Сутінково-мангрова колода
+Mangrove planks - Сутінково-мангрові дошки
+Mangrove pressure plate - Сутінково-мангрова натискна плита
+Mangrove root - Сутінково-мангрове коріння
+Mangrove sapling - Паросток сутінкового мангрового дерева
+Mangrove sign - Сутінково-мангрова табличка
+Mangrove slab - Сутінково-мангрова плита
+Mangrove stairs - Сутінково-мангрові сходи
+Mangrove trapdoor - Сутінково-мангровий люк
+Mangrove wall hanging sign - Сутінково-мангрова настінна вивіска
+Mangrove wall sign - Сутінково-мангрова настінна табличка
+Mangrove wood - Сутінково-мангрова деревина
+Mayapple - Подофіл
+Mazestone - Лабіринтовий камінь
+Mazestone border - Межа з лабіринтового каменю
+Mazestone brick - Цегла з лабіринтового каменю
+Mazestone mosaic - Мозаїчний лабіринтовий камінь
+Mining banister - Бильця з шахтарського дерева
+Mining button - Кнопка з шахтарського дерева
+Mining chest - Скриня з шахтарського дерева
+Mining door - Двері з шахтарського дерева
+Mining fence - Паркан з шахтарського дерева
+Mining fence gate - Хвіртка з шахтарського дерева
+Mining hanging sign - Вивіска з шахтарського дерева
+Mining leaves - Листя шахтарського дерева
+Mining log - Колода шахтарського дерева
+Mining log core - Серцевина шахтарського дерева
+Mining planks - Дошки з шахтарського дерева
+Mining pressure plate - Натискна плита з шахтарського дерева
+Mining sapling - Паросток шахтарського дерева
+Mining sign - Табличка з шахтарського дерева
+Mining slab - Плита з шахтарського дерева
+Mining stairs - Сходи з шахтарського дерева
+Mining trapdoor - Люк з шахтарського дерева
+Mining wall hanging sign - Настінна вивіска з шахтарського дерева
+Mining wall sign - Табличка на стіні з шахтарського дерева
+Mining wood - Колода з шахтарського дерева
+Minoshroom boss spawner - Спавнер Гриботавра
+Minoshroom trophy - Трофей Гриботавра
+Moonworm - Місячний черв'як
+Moss patch - Моховий клаптик
+Mossy castle brick - Мохова цегла замку
+Mossy castle brick stairs - Сходи з моховитої цегли замку
+Mossy etched nagastone - Моховий гравірований нагакамінь
+Mossy mazestone - Моховитий мозаїчний лабіринтовий камінь
+Mossy nagastone pillar - Мохова колона з нагакамню
+Mossy nagastone stairs (left) - Мохові сходи з нагакамню (ліва)
+Mossy nagastone stairs (right) - Мохові сходи з нагакамню (права)
+Mossy towerwood - Моховиті дошки з темної вежі
+Mossy underbrick - Моховитий підцеглянник
+Mushgloom - Сутінковий світлогриб
+Naga boss spawner - Спавнер Наги
+Naga courtyard miniature structure - Мініатюрний двір Наги
+Naga trophy - Трофей Наги
+Nagastone - Нагакамінь
+Nagastone head - Блок голови з нагакаміння
+Nagastone pillar - Колона з нагакамню
+Nagastone stairs (left) - Сходи з нагакамню (ліва)
+Nagastone stairs (right) - Сходи з нагакамню (права)
+Oak banister - Дубові бильця
+Orange force field - Помаранчеве силове поле
+Piglin skull candle - Голова піґліна зі свічкою
+Piglin wall skull candle - Настінна голова піґліна зі свічкою
+Pink castle door - Пурпурові замкові двері
+Pink castle rune brick - Рунічна рожева цегла замку
+Pink force field - Пурпурове силове поле
+Player skull candle - Голова гравця зі свічкою
+Player skull candle (named) - Голова %s зі свічкою
+Player wall skull candle - Настінна голова гравця зі свічкою
+Potted canopy sapling - Паросток наметового дерева в горщику
+Potted darkwood sapling - Паросток темного дерева в горщику
+Potted dead thorn - Обпалені шипи в горщику
+Potted fiddlehead - Рахіси папороті в горщику
+Potted green thorn - Зелені шипи в горщику
+Potted hollow oak sapling - Паросток міцного сутінкового дуба в горщику
+Potted mangrove sapling - Паросток сутінкового мангрового дерева в горщику
+Potted mayapple - Подофіл у горщику
+Potted mining sapling - Паросток шахтарського дерева в горщику
+Potted mushgloom - Сутінковий світлогриб в горщику
+Potted rainbow oak sapling - Паросток веселкового дуба в горщику
+Potted sorting sapling - Паросток сортувального дерева в горщику
+Potted thorn - Шипи в горщику
+Potted time sapling - Паросток часодерева в горщику
+Potted transformation sapling - Паросток дерева перетворення в горщику
+Potted twilight oak sapling - Паросток хворобливого сутінкового дуба в горщику
+Quest ram trophy - Трофей квестового барана
+Rainbow oak leaves - Веселково-дубове листя
+Rainbow oak sapling - Паросток веселкового дуба
+Rainy cloud - Дощова хмара
+Reactor debris - Уламки реактора
+Reappearing block - Відновлювальний блок
+Red thread - Червона нитка
+Root - Коріння
+Root strand - Кореневі пасма
+Skeleton skull candle - Череп скелета зі свічкою
+Skeleton wall skull candle - Настінний череп скелета зі свічкою
+Slider - Слайд-пастка
+Smoker - Блок диму
+Snow queen boss spawner - Спавнер Сніжної королеви
+Snow queen trophy - Трофей Сніжної королеви
+Snowy cloud - Сніжна хмара
+Sorting banister - Бильця з сортувального дерева
+Sorting button - Кнопка з сортувального дерева
+Sorting chest - Скриня з сортувального дерева
+Sorting door - Двері з сортувального дерева
+Sorting fence - Паркан з сортувального дерева
+Sorting fence gate - Хвіртка з сортувального дерева
+Sorting hanging sign - Вивіска із сортувального дерева
+Sorting leaves - Листя сортувального дерева
+Sorting log - Колода сортувального дерева
+Sorting log core - Двигун сортувального дерева
+Sorting planks - Дошки з сортувального дерева
+Sorting pressure plate - Натискна плита з сортувального дерева
+Sorting sapling - Паросток сортувального дерева
+Sorting sign - Табличка з сортувального дерева
+Sorting slab - Плита з сортувального дерева
+Sorting stairs - Сходи з сортувального дерева
+Sorting trapdoor - Люк з сортувального дерева
+Sorting wall hanging sign - Настінна вивіска із сортувального дерева
+Sorting wall sign - Табличка на стіні з сортувального дерева
+Sorting wood - Колода з сортувального дерева
+Spiral bricks - Спіральні кам'яні цеглини
+Spruce banister - Смерекові бильця
+Steeleaf block - Блок сталеволисту
+Stripped canopy log - Обтесана колода наметового дерева
+Stripped canopy wood - Обтесана деревина наметового дерева
+Stripped dark log - Обтесана темно-дерев'яна колода
+Stripped dark wood - Обтесана темно-дерев'яна деревина
+Stripped mangrove log - Обтесана сутінковомангрова колода
+Stripped mangrove wood - Обтесана сутінковомангрова деревина
+Stripped mining log - Обтесана колода шахтарського дерева
+Stripped mining wood - Обтесана колода шахтарського дерева
+Stripped sorting log - Обтесана колода сортувального дерева
+Stripped sorting wood - Обтесана колода сортувального дерева
+Stripped time log - Обтесана колода часодерева
+Stripped time wood - Обтесана деревина часодерева
+Stripped transformation log - Обтесана колода дерева перетворення
+Stripped transformation wood - Обтесана колода дерева перетворення
+Stripped twilight oak log - Обтесана сутінководубова колода
+Stripped twilight oak wood - Обтесана сутінководубова деревина
+Stronghold shield - Щит фортеці
+Thick castle brick - Щільна цегла замку
+Thorn leaves - Шипасте листя
+Thorn rose - Шипаста троянда
+Time banister - Бильця з часодерева
+Time button - Кнопка з часодерева
+Time chest - Скриня з часодерева
+Time door - Двері з часодерева
+Time fence - Паркан із часодерева
+Time fence gate - Хвіртка з часодерева
+Time hanging sign - Вивіска з часодерева
+Time leaves - Листя часодерева
+Time log - Колода часодерева
+Time log core - Годинник часодерева
+Time planks - Дошки з часодерева
+Time pressure plate - Натискна плита з часодерева
+Time sapling - Паросток часодерева
+Time sign - Табличка з часодерева
+Time slab - Плита з часодерева
+Time stairs - Сходи з часодерева
+Time trapdoor - Люк із часодерева
+Time wall hanging sign - Настінна вивіска з часодерева
+Time wall sign - Настінна табличка з часодерева
+Time wood - Деревина часодерева
+Torchberry plant - Рослина смолоскипних ягід
+Towerwood - Дошки з темної вежі
+Transformation banister - Бильця з дерева перетворення
+Transformation button - Кнопка з дерева перетворення
+Transformation chest - Скриня з дерева перетворення
+Transformation door - Двері з дерева перетворення
+Transformation fence - Паркан з дерева перетворення
+Transformation fence gate - Хвіртка з дерева перетворення
+Transformation hanging sign - Вивіска з дерева перетворення
+Transformation leaves - Листя дерева перетворення
+Transformation log - Колода дерева перетворення
+Transformation log core - Серце дерева перетворення
+Transformation planks - Дошки з дерева перетворення
+Transformation pressure plate - Натискна плита з дерева перетворення
+Transformation sapling - Паросток дерева перетворення
+Transformation sign - Табличка з дерева перетворення
+Transformation slab - Плита з дерева перетворення
+Transformation stairs - Сходи з дерева перетворення
+Transformation trapdoor - Люк з дерева перетворення
+Transformation wall hanging sign - Настінна вивіска з дерева перетворення
+Transformation wall sign - Табличка на стіні з дерева перетворення
+Transformation wood - Колода з дерева перетворення
+Trollber - Трольбер
+Trollsteinn - Трольштейн
+Trollvidr - Трольвідр
+Trophy pedestal - Трофейний п'єдестал
+Twilight oak banister - Сутінково-дубові бильця
+Twilight oak button - Сутінково-дубова кнопка
+Twilight oak chest - Сутінково-дубова скриня
+Twilight oak door - Сутінково-дубові двері
+Twilight oak fence - Сутінково-дубовий паркан
+Twilight oak fence gate - Сутінково-дубова хвіртка
+Twilight oak hanging sign - Сутінково-дубова вивіска
+Twilight oak leaves - Сутінково-дубове листя
+Twilight oak log - Сутінково-дубова колода
+Twilight oak planks - Сутінково-дубові дошки
+Twilight oak pressure plate - Сутінково-дубова натискна плита
+Twilight oak sapling - Паросток хворобливого сутінкового дуба
+Twilight oak sign - Сутінково-дубова табличка
+Twilight oak slab - Сутінково-дубова плита
+Twilight oak stairs - Сутінково-дубові сходи
+Twilight oak trapdoor - Сутінково-дубовий люк
+Twilight oak wall hanging sign - Сутінководубова настінна вивіска
+Twilight oak wall sign - Сутінково-дубова настінна табличка
+Twilight oak wood - Сутінково-дубова деревина
+Twilight portal - Портал сутінкового лісу
+Twilight portal miniature structure - Мініатюрний портал сутінкового лісу
+Twisted stone - Кручений камінь
+Twisted stone pillar - Кручена кам'яна колона
+Uberous soil - Родючий ґрунт
+Unbreakable vanishing block - Блок, що зникає
+Uncrafting table - Стіл розкрафчування
+Uncrafting table disabled - Цей блок було відключено
+Underbrick - Підцеглянник
+Underbrick floor - Підцеглянна підлога
+Unripe trollber - Неспілий трольбер
+Ur ghast boss spawner - Спавнер Ур-Ґаста
+Ur ghast trophy - Трофей Ур-Ґаста
+Vangrove banister - Мангрові бильця
+Vanishing block - Блок, що зникає
+Violet castle door - Фіолетові двері замку
+Violet castle rune brick - Рунічна фіолетова цегла замку
+Violet force field - Фіолетове силове поле
+Warped banister - Химерні бильця
+Weathered deadrock - Вивітрений мертвокамінь
+Wispy cloud - Пір'яста хмаринка
+Wither skeleton skull candle - Череп візераскелета зі свічкою
+Wither skeleton wall skull candle - Настінний череп візера-скелета зі свічкою
+Worn castle brick - Потерта цегла замку
+Worn castle brick stairs - Сходи з потертої цегли замку
+Wrought iron fence - Кована огорожа
+Wrought iron finial - Кінець із кованого заліза
+Yellow castle door - Жовті двері замку
+Yellow castle rune brick - Рунічна жовта цегла замку
+Zombie skull candle - Голова зомбі зі свічкою
+Zombie wall skull candle - Настінна голова зомбі зі свічкою

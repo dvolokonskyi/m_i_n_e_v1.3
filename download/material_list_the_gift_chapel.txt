@@ -1,0 +1,22 @@
++--------------------------+-------+---------+-----------+
+| Area Analysis for selection 'Unnamed'                  |
++--------------------------+-------+---------+-----------+
+| Item                     | Total | Missing | Available |
++--------------------------+-------+---------+-----------+
+| Deepslate Bricks         |   140 |       0 |         0 |
+| Deepslate Brick Stairs   |    52 |       0 |         0 |
+| Spruce Trapdoor          |    52 |       0 |         0 |
+| Cracked Deepslate Bricks |    16 |       0 |         0 |
+| Deepslate Brick Wall     |    12 |       0 |         0 |
+| Deepslate Brick Slab     |     9 |       0 |         0 |
+| Observer                 |     9 |       0 |         0 |
+| Redstone Dust            |     9 |       0 |         0 |
+| Soul Lantern             |     8 |       0 |         0 |
+| Glowstone                |     4 |       0 |         0 |
+| Redstone Repeater        |     4 |       0 |         0 |
+| Cake                     |     1 |       0 |         0 |
+| Dropper                  |     1 |       0 |         0 |
+| Glow Lichen              |     1 |       0 |         0 |
++--------------------------+-------+---------+-----------+
+| Item                     | Total | Missing | Available |
++--------------------------+-------+---------+-----------+
