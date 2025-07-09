@@ -41,6 +41,52 @@
     <button id="themetoggle" class="themetoggle">
         <img height="20px" src="img/night-day.png">
     </button>
+    <script>
+        const themeToggle = document.getElementById("themetoggle");
+        const isDarkMode = localStorage.getItem("darkMode") === "enabled";
+
+        if (isDarkMode) {
+            document.body.classList.add("darkmode");
+            smoothScrollbarTransition(true);
+        }
+
+        themeToggle.addEventListener("click", () => {
+            const darkModeEnabled = document.body.classList.toggle("darkmode");
+            smoothScrollbarTransition(darkModeEnabled);
+
+            if (darkModeEnabled) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.removeItem("darkMode");
+            }
+        });
+        function smoothScrollbarTransition(isDarkMode) {
+            let startColor = isDarkMode ? [78, 48, 103] : [0, 0, 0];
+            let endColor = isDarkMode ? [0, 0, 0] : [78, 48, 103];
+            let steps = 150;
+            let interval = 0;
+            let step = 0;
+            let scrollTrack = document.createElement("style");
+            document.head.appendChild(scrollTrack);
+
+            let animation = setInterval(() => {
+                if (step >= steps) {
+                    clearInterval(animation);
+                    return;
+                }
+                let r = Math.round(startColor[0] + (endColor[0] - startColor[0]) * (step / steps));
+                let g = Math.round(startColor[1] + (endColor[1] - startColor[1]) * (step / steps));
+                let b = Math.round(startColor[2] + (endColor[2] - startColor[2]) * (step / steps));
+
+                scrollTrack.innerHTML = `
+                    body::-webkit-scrollbar-track {
+                        background-color: rgb(${r}, ${g}, ${b}) !important;
+                    }
+                `;
+                step++;
+            }, interval);
+        }
+    </script>
     <div class="main">
         <div class="sidebar">
             <div class="logo">
@@ -63,6 +109,14 @@
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
     const pageLinks = {
+        "blocksid": { name: "ID блоків для Bedrock", url: "/blocksid.html" },
+        "blocksidjava": { name: "ID блоків для Java", url: "/blocksidjava.html" },
+        "builds_Abv192": { name: "Споруди та схематики", url: "/builds_Abv192.html" },
+        "builds_Abv192p2": { name: "Споруди та схематики сторінка 2", url: "/builds_Abv192p2.html" },
+        "builds_Abv192p3": { name: "Споруди та схематики сторінка 3", url: "/builds_Abv192p3.html" },
+        "builds_Abv192p4": { name: "Споруди та схематики сторінка 4", url: "/builds_Abv192p4.html" },
+        "cubiomes": { name: "Гайд по Cubiomes Viewer", url: "/cubiomes.html" },
+        "farms": { name: "Автоматичні ферми", url: "/farms.html" },
         "howtofind": { name: "Як швидко знайти скарб", url: "/howtofind.html" },
 
     };
@@ -78,6 +132,29 @@
             }
         });
     }
+
+    const favoritebutton = document.getElementById("favoritebutton");
+    const heartImage = document.getElementById("heart");
+
+    function updateButton() {
+        if (favorites.includes(pageID)) {
+            heartImage.src = "img/heart.png";
+        } else {
+            heartImage.src = "img/bheart.png";
+        }
+    }
+
+    favoritebutton.addEventListener("click", () => {
+        const index = favorites.indexOf(pageID);
+        if (index === -1) {
+            favorites.push(pageID);
+        } else {
+            favorites.splice(index, 1);
+        }
+        localStorage.setItem("favorites", JSON.stringify(favorites));
+        updateButton();
+    });
+
+    updateButton();
 </script>
-<script src="functions_seeds.js"></script>
 </html>
