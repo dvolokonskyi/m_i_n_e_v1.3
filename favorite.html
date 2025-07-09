@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Улюблене</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="stylein.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://m-i-n-e.com/favorite.html">
+    <style>
+        body {
+            background-color: rgb(78, 48, 103);
+        }
+        ul, ul li, ul li a {
+            color: whitesmoke;
+            list-style: none;
+            margin-left: -5px;
+            margin-top: 25px;
+            font-size: 16px;
+            transition: 1s;
+        }
+        ul li a:hover {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EDCD53FKZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0EDCD53FKZ');
+</script>
+<body>
+    <button id="themetoggle" class="themetoggle">
+        <img height="20px" src="img/night-day.png">
+    </button>
+    <div class="main">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="img/new_logo.png" height="60px">
+            </div>
+            <a href="https://m-i-n-e.com/">
+                <b class="back">Додому</b>
+            </a>
+        </div>
+        <div>
+            <p class="title">Твої улюблені сторінки</p>
+            <ul id="favoritesList">
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    let favoritesList = document.getElementById("favoritesList");
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+    const pageLinks = {
+        "howtofind": { name: "Як швидко знайти скарб", url: "/howtofind.html" },
+
+    };
+
+    if (favorites.length === 0) {
+        favoritesList.innerHTML = "<li>У тебе ще немає улюблених сторінок.</li>";
+    } else {
+        favorites.forEach(id => {
+            if (pageLinks[id]) {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="${pageLinks[id].url}">${pageLinks[id].name}</a>`;
+                favoritesList.appendChild(li);
+            }
+        });
+    }
+</script>
+<script src="functions_seeds.js"></script>
+</html>

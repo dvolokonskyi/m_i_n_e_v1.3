@@ -51,7 +51,7 @@
     opacity: 0.7;
 }
 
-button {
+.themetoggle {
     width: 40px;
     height: 40px;
     border-radius: 40px;
@@ -70,6 +70,20 @@ button:hover {
 
 .inverted {
     filter: invert(1);
+}
+
+.favoritebutton {
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    transition: 1s;
+    cursor: pointer;
+    background-color: whitesmoke;
+    padding-top: 4px;
 }
 
 body::-webkit-scrollbar {
@@ -143,7 +157,7 @@ a:hover {
 
 .backtoup {
     position: fixed;
-    bottom: 60px;
+    bottom: 110px;
     right: 10px;
     border-radius: 40px;
     height: 40px;
@@ -267,6 +281,7 @@ a:hover {
 }
 
 #themetoggle,
-.backtoup {
+.backtoup,
+.favoritebutton {
     z-index: 1.9;
 }

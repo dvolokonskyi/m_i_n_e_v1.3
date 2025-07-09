@@ -7,6 +7,7 @@ document.querySelectorAll(".two, .three, .four").forEach(link => {
         document.querySelector(".one").style.opacity = "1";
     });
 });
+
     // Dark mode
 const themeToggle = document.getElementById("themetoggle");
 const isDarkMode = localStorage.getItem("darkMode") === "enabled";
@@ -52,6 +53,7 @@ function smoothScrollbarTransition(isDarkMode) {
         step++;
     }, interval);
 }
+
     // Copy ready for pasta!
 function copyText(element) {
     let text = element.innerText;
@@ -68,3 +70,29 @@ function showToast(message) {
         toast.classList.remove("show");
     }, 2500);
 }
+
+    // Favorite
+const favoritebutton = document.getElementById("favoritebutton");
+const heartImage = document.getElementById("heart");
+const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+
+function updateButton() {
+  if (favorites.includes(pageID)) {
+    heartImage.src = "img/heart.png";
+  } else {
+    heartImage.src = "img/bheart.png";
+  }
+}
+
+favoritebutton.addEventListener("click", () => {
+  const index = favorites.indexOf(pageID);
+  if (index === -1) {
+    favorites.push(pageID);
+  } else {
+    favorites.splice(index, 1);
+  }
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  updateButton();
+});
+
+updateButton();
