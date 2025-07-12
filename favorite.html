@@ -17,14 +17,15 @@
         }
         ul, ul li, ul li a {
             color: whitesmoke;
-            list-style: none;
-            margin-left: -8px;
             margin-top: 8px;
             font-size: 16px;
             transition: 1s;
         }
         ul li a:hover {
             opacity: 0.6;
+        }
+        ul p {
+            margin-left: -20px;
         }
         .the {
             margin: -20px 0 0 23px;
@@ -128,12 +129,14 @@
         "game_features": { name: "Ігрові механіки", url: "/game_features.html" },
         "goldfarm": { name: "Як швидко знайти скарб", url: "/goldfarm.html" },
         "gunpowderfarm": { name: "Ферма пороху", url: "/gunpowderfarm.html" },
+        "hotkeys": { name: "Комбінації клавіш", url: "/hotkeys.html" },
+        "how_to_train_your_dragon": { name: "Як приборкати дракона. Ice and Fire.", url: "/how_to_train_your_dragon.html" },
         "howtofind": { name: "Як швидко знайти скарб", url: "/howtofind.html" },
 
     };
 
     if (favorites.length === 0) {
-        favoritesList.innerHTML = "<li>У тебе ще немає улюблених сторінок.</li>";
+        favoritesList.innerHTML = "<p>У тебе ще немає улюблених сторінок.</p>";
     } else {
         favorites.forEach(id => {
             if (pageLinks[id]) {
