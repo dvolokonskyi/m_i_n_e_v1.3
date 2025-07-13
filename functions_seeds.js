@@ -96,3 +96,21 @@ favoritebutton.addEventListener("click", () => {
 });
 
 updateButton();
+
+    // Backtoup
+const backtoup = document.getElementById("backtoup");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 600) {
+      backtoup.classList.add("show");
+    } else {
+      backtoup.classList.remove("show");
+    }
+});
+
+backtoup.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+});
