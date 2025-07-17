@@ -81,6 +81,17 @@ button:hover {
     padding-top: 4px;
 }
 
+.buttonsbg {
+    z-index: 2;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    backdrop-filter: blur(10px);
+    height: 160px;
+    width: 60px;
+    border-top-left-radius: 20px;
+}
+
 body::-webkit-scrollbar {
     width: 15px;
 }
