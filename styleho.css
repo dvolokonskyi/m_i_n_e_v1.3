@@ -172,24 +172,6 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.backtoup {
-    position: fixed;
-    bottom: 110px;
-    right: 10px;
-    border-radius: 40px;
-    height: 40px;
-    width: 40px;
-}
-
-.backtoup img {
-    rotate: 270deg;
-}
-
-.backtoup:hover,
-.backtoup a:hover {
-    opacity: 0.7;
-}
-
 .section_title {
     font-size: 22px;
     margin-left: 25px;
