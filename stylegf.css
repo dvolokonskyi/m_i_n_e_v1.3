@@ -1,7 +1,7 @@
 @media screen and (min-width: 1px) and (max-width: 600px) {
     .main,
     .backtoup {
-        zoom: 50%;
+        zoom: 45%;
     }
 }
 
