@@ -96,9 +96,20 @@ button:hover {
     right: 0px;
     bottom: 0px;
     backdrop-filter: blur(10px);
-    height: 110px;
+    height: 160px;
     width: 60px;
     border-top-left-radius: 20px;
+}
+
+.backtoup {
+    bottom: 110px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#backtoup.show {
+    visibility: visible;
+    opacity: 1;
 }
 
 body::-webkit-scrollbar {
