@@ -133,10 +133,13 @@ body{
 }
 
 .logo {
-	background-color: black;
-	padding: 4px;
-	border-radius: 8px;
-	margin-bottom: 5px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 .fav {
