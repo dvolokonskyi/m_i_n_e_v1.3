@@ -19,6 +19,10 @@
         .small_section_title img{
             margin-bottom: -1px;
         }
+        #click:hover {
+            opacity: 0.6;
+            cursor: pointer;
+        }
     </style>
 </head>
 <!-- Google tag (gtag.js) -->
@@ -132,6 +136,21 @@
             <p class="more_specifically">
                 MCTraps це сервіс для публікації та перегляду пасток (*особливо корисні на серверах з анархією). Дозволяє використати
                 перевірену паску з великого каталогу, відсортованого за голосами попередніх мисливців.
+            </p>
+            <p class="horyline"></p>
+            <p class="small_section_title">
+                <img src="https://mcstacker.net/icon.svg" width="18px" height="18px">
+                <a title="Перейти на сайт" target="_blank" href="https://mcstacker.net/">MCTraps</a>
+            </p>
+            <p class="more_specifically">
+                Потужний генератор команд для Minecraft. Дозволяє створювати складні команди /summon, /give, /tellraw та інші без
+                необхідності все писати вручну.
+            </p>
+            <p class="more_specifically">
+                Саме той сервісщоб отримати меч на гостроту тисяча чи щось таке. Власне, ось тобі меч на гостроту 255 рівня:
+            </p>
+            <p class="more_specifically" onclick="copyText(this)" id="click">
+                /give @p netherite_sword[enchantments={"sharpness":255}] 1
             </p>
         </div>
     </div>
