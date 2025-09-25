@@ -227,7 +227,7 @@ label:hover {
     margin-top: 20px;
 }
 
-.important{
+.importan {
     color: red;
     font-weight: bold;
     font-size: 15px;
@@ -236,14 +236,11 @@ label:hover {
 
 .flex {
     display: flex;
-    margin-top: 38px;
-    margin-bottom: 30px;
     width: 802px;
-    padding-left: 45px;
 }
 
-.thr {
-    width: 400px;
+.flex div {
+    width: fit-content;
 }
 
 .a {
@@ -251,17 +248,16 @@ label:hover {
     font-size: 23px;
     text-decoration: none;
     font-weight: bold;
-    margin-left: -16px;
     width: 100px;
 }
 
 .a:hover {
-    opacity: 0.4;
+    opacity: 0.6;
     text-decoration: underline;
 }
 
 .li {
-    margin-bottom: 20px;
+    margin: 0 0 20px 0px;
     font-size: 25px;
 }
 
