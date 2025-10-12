@@ -284,3 +284,61 @@ a:hover {
 .favoritebutton {
     z-index: 1.9;
 }
+
+.slider,
+.sliderl {
+    width: 802px;
+    height: 425px;
+    margin-right: 0px;
+    margin-left: 25px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#slider,
+#sliderl {
+    display: flex;
+    width: 1604px;
+    height: 425px;
+    animation-name: slider;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+}
+
+.sliderl {
+    margin-right: auto !important;
+    margin-left: 0px !important;
+}
+
+#sliderl {
+    animation-delay: 4s;
+}
+
+.slider img,
+.sliderl img {
+    min-width: 802px;
+    height: 425px;
+}
+
+@keyframes slider {
+    0% {
+        margin-left: 0px;
+    }
+
+    49% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: -802px;
+    }
+
+    99% {
+        margin-left: -802px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
