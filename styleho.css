@@ -285,8 +285,7 @@ a:hover {
     z-index: 1.9;
 }
 
-.slider,
-.sliderl {
+.slider {
     width: 802px;
     height: 425px;
     margin-right: 0px;
@@ -295,8 +294,7 @@ a:hover {
     overflow: hidden;
 }
 
-#slider,
-#sliderl {
+#slider {
     display: flex;
     width: 1604px;
     height: 425px;
@@ -306,17 +304,7 @@ a:hover {
     animation-duration: 16s;
 }
 
-.sliderl {
-    margin-right: auto !important;
-    margin-left: 0px !important;
-}
-
-#sliderl {
-    animation-delay: 4s;
-}
-
-.slider img,
-.sliderl img {
+.slider img {
     min-width: 802px;
     height: 425px;
 }
@@ -326,7 +314,7 @@ a:hover {
         margin-left: 0px;
     }
 
-    49% {
+    48% {
         margin-left: 0px;
     }
 
