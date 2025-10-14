@@ -285,7 +285,8 @@ a:hover {
     z-index: 1.9;
 }
 
-.slider {
+.slider,
+.lslider {
     width: 802px;
     height: 425px;
     margin-right: 0px;
@@ -304,7 +305,8 @@ a:hover {
     animation-duration: 16s;
 }
 
-.slider img {
+.slider img,
+.lslider img {
     min-width: 802px;
     height: 425px;
 }
@@ -324,6 +326,46 @@ a:hover {
 
     99% {
         margin-left: -802px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+#lslider {
+    display: flex;
+    width: 2406px;
+    height: 425px;
+    animation-name: lslider;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 24s;
+}
+
+@keyframes lslider {
+    0% {
+        margin-left: 0px;
+    }
+
+    31% {
+        margin-left: 0px;
+    }
+
+    33% {
+        margin-left: -802px;
+    }
+
+    64% {
+        margin-left: -802px;
+    }
+
+    66% {
+        margin-left: -1604px;
+    }
+
+    99% {
+        margin-left: -1604px;
     }
 
     100% {
