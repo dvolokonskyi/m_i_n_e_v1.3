@@ -172,6 +172,18 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.back {
+    position: absolute;
+    top: 78px;
+    right: 5px;
+    padding-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+    color: wheat;
+    font-size: 13px;
+    text-decoration: none;
+}
+
 .section_title {
     font-size: 22px;
     margin-left: 25px;
