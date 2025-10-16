@@ -100,6 +100,17 @@ button:hover {
     border-top-left-radius: 20px;
 }
 
+.backtoup {
+    bottom: 110px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#backtoup.show {
+    visibility: visible;
+    opacity: 1;
+}
+
 body::-webkit-scrollbar {
     width: 15px;
 }
