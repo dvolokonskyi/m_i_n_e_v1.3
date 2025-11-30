@@ -232,3 +232,11 @@ a:hover {
 .favoritebutton {
     z-index: 3;
 }
+
+.press {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    margin-top: -20px;
+    color: wheat;
+}
