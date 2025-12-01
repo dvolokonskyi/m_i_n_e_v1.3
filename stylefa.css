@@ -172,19 +172,8 @@ a:hover {
 
 .title {
     font-size: 22px;
-    margin-left: 15px;
+    margin-left: 20px;
     color: wheat;
-}
-
-.text {
-    text-indent: 8px;
-    color: whitesmoke;
-    text-align: justify;
-    margin-left: 15px;
-    margin-right: 147px;
-    padding-bottom: 15px;
-    border-bottom: 3px solid whitesmoke;
-    border-radius: 3px;
 }
 
 .farm_box {
@@ -235,8 +224,27 @@ a:hover {
 
 .press {
     font-size: 12px;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-bottom: 8px;
     margin-top: -20px;
     color: wheat;
+}
+
+.specifica {
+    text-indent: 8px;
+    color: whitesmoke;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 15px;
+    width: 680px;
+}
+
+.horyline {
+    background-color: wheat;
+    min-width: 780px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 3px;
+    border-radius: 3px;
+    margin-top: 20px;
 }
