@@ -673,3 +673,52 @@ a:hover {
 #themetoggle {
     z-index: 99;
 }
+
+.allcrafting {
+    margin: 20px 20px 10px 20px;
+    display: flex;
+}
+
+.craftingbox {
+    width: 350px;
+    height: 164px;
+    outline: 2px whitesmoke solid;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.crafting {
+    display: flex;
+    width: 700px;
+    height: 164px;
+    animation-name: crafting;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+
+@keyframes crafting {
+    0% {
+        margin-left: 0px;
+    }
+    49% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: -350px;
+    }
+    99% {
+        margin-left: -350px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+#craft {
+    height: 164px;
+    outline: 2px whitesmoke solid;
+    margin-bottom: 15px;
+    border-radius: 2px;
+    margin-right: auto;
+}
