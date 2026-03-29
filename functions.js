@@ -11,12 +11,10 @@ document.querySelectorAll(".two, .three, .four").forEach(link => {
     // Dark mode
 const themeToggle = document.getElementById("themetoggle");
 const isDarkMode = localStorage.getItem("darkMode") === "enabled";
-
 if (isDarkMode) {
     document.body.classList.add("darkmode");
     smoothScrollbarTransition(true);
 }
-
 themeToggle.addEventListener("click", () => {
     const darkModeEnabled = document.body.classList.toggle("darkmode");
     smoothScrollbarTransition(darkModeEnabled);
@@ -53,6 +51,13 @@ function smoothScrollbarTransition(isDarkMode) {
         step++;
     }, interval);
 }
+const btn = document.getElementById("themetoggle");
+function updateLabel(isDark) {
+    btn.setAttribute(
+        "aria-label",
+        isDark ? "Увімкнути світлу тему" : "Увімкнути темну тему"
+    );
+}
 
     // Copy ready for pasta!
 function copyText(element) {
@@ -75,7 +80,6 @@ function showToast(message) {
 const favoritebutton = document.getElementById("favoritebutton");
 const heartImage = document.getElementById("heart");
 const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-
 function updateButton() {
   if (favorites.includes(pageID)) {
     heartImage.src = "img/heart.png";
@@ -83,7 +87,6 @@ function updateButton() {
     heartImage.src = "img/bheart.png";
   }
 }
-
 favoritebutton.addEventListener("click", () => {
   const index = favorites.indexOf(pageID);
   if (index === -1) {
@@ -94,12 +97,10 @@ favoritebutton.addEventListener("click", () => {
   localStorage.setItem("favorites", JSON.stringify(favorites));
   updateButton();
 });
-
 updateButton();
 
     // Backtoup
 const backtoup = document.getElementById("backtoup");
-
 window.addEventListener("scroll", () => {
     if (window.scrollY > 600) {
       backtoup.classList.add("show");
@@ -107,7 +108,6 @@ window.addEventListener("scroll", () => {
       backtoup.classList.remove("show");
     }
 });
-
 backtoup.addEventListener("click", () => {
     window.scrollTo({
       top: 0,
