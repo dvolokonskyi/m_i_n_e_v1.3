@@ -193,16 +193,28 @@
     <loc>https://m-i-n-e.com/TTFI_arctic_fur.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFI_armor_shard_cluster.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFI_block_and_chain.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_borer_essence.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFI_brittle_potion_flask.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_carminite.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFI_charm_of_keeping.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_charm_of_life.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_cube_of_annihilation.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_diamond_minotaur_axe.html</loc>
@@ -226,7 +238,28 @@
     <loc>https://m-i-n-e.com/TTFI_fiery_sword.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFI_giant_pickaxe.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_gold_minotaur_axe.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_ice_bomb.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_ice_bow.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_ice_sword.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFI_ironwood_armor.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_ironwood_ingot.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_ironwood_pickaxe.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_knightmetal_armor.html</loc>
@@ -244,6 +277,9 @@
     <loc>https://m-i-n-e.com/TTFI_knightmetal_ring.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFI_lamp_of_cinders.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFI_lich_trophy.html</loc>
   </url>
   <url>
@@ -259,10 +295,19 @@
     <loc>https://m-i-n-e.com/TTFI_moon_dial.html</loc>
   </url>
   <url>
+    <loc>https://m-i-n-e.com/TTFI_moonworm_queen.html</loc>
+  </url>
+  <url>
     <loc>https://m-i-n-e.com/TTFI_naga_scale_armor.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_peacock_fan.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_snow_queen_trophy.html</loc>
+  </url>
+  <url>
+    <loc>https://m-i-n-e.com/TTFI_tower_key.html</loc>
   </url>
   <url>
     <loc>https://m-i-n-e.com/TTFI_yeti_armor.html</loc>
