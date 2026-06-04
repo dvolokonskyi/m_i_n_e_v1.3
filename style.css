@@ -59,7 +59,6 @@ button {
 	border-radius: 40px;
 	border: 2px solid black;
 	transition: 1s;
-	background-color: whitesmoke;
 	z-index: 3;
 }
 
@@ -111,31 +110,30 @@ body::-webkit-scrollbar-corner {
 
 body{
 	font-family: 'Comfortaa', cursive;
-	padding-top: 15px;
-	transition: 1s;
 }
 
 .main{
 	border: 3px solid whitesmoke;
 	border-radius: 10px;
 	margin: auto;
-	width: 852px !important;
+	width: 832px;
 	height: max-content;
 	backdrop-filter: blur(4px);
 	position: relative;
+	padding: 15px;
 }
 
 .sidebar {
-	width: 138px !important;
+	width: 138px;
 	position: absolute;
-	top: 3px;
-	right: 3px;
+	top: 15px;
+	right: 15px;
 }
 
 .logo {
     position: absolute;
-    top: 4px;
-    right: 4px;
+    top: 0px;
+    right: 0px;
     background-color: black;
     padding: 4px;
     border-radius: 8px;
@@ -149,17 +147,8 @@ body{
 	padding: 2px;
 	color: wheat;
 	font-size: 13px;
-	text-decoration: none;
 	text-align: right;
 	max-width: min-content;
-}
-
-.fav:hover {
-	opacity: 0.6;
-}
-
-a {
-	text-decoration: none;
 }
 
 article {
@@ -167,8 +156,6 @@ article {
 }
 
 .quote {
-	margin-left: 20px;
-	margin-right: 20px;
 	background-color: rgba(245, 245, 245, 0.7);
 	border-left: 5px solid wheat;
 	border-radius: 5px;
@@ -184,8 +171,9 @@ article {
 }
 
 .flex {
+	margin: 0;
 	display: flex;
-	margin: -10px 20px 20px 20px;
+	width: max-content;
 }
 
 li {
@@ -194,28 +182,28 @@ li {
 	line-height: 1.6;
 }
 
-.a {
+a {
 	color: whitesmoke;
 	transition: 0.5s;
+	text-decoration: none;
 }
 
-.a:hover {
+a:hover {
 	opacity: 0.4;
 	text-decoration: underline;
 	transition: 0.5s;
 }
 
 .info {
-	border-radius: 10px;
 	position: absolute;
-	bottom: 0px;
-	right: 3px;
-	transition: 0.5s;
+	bottom: 15px;
+	right: 15px;
+	width: 20px;
+	height: 20px;
 }
 
-.info:hover {
-	opacity: 0.4;
-	transition: 0.5s;
+.info a {
+	border-radius: 10px;
 }
 
 .Updates_required {
@@ -237,7 +225,7 @@ li {
 	font-size: 21px;
 	font-weight: bolder;
 	color: wheat;
-	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 .one {
@@ -247,8 +235,6 @@ li {
 
 #slider {
 	position: relative;
-	margin-top: 4px;
-	margin-left: 4px;
 }
 
 #slides article {
@@ -277,6 +263,11 @@ article img {
 label,
 a {
 	cursor: pointer;
+}
+
+.all {
+	width: min-content;
+	height: min-content;
 }
 
 .all input {
