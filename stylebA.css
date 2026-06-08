@@ -209,16 +209,15 @@ a:hover {
 .specificalities {
     text-indent: 8px;
     color: whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
     width: 282px;
+    margin: auto;
 }
 
 .slider,
 .sliderl {
     width: 500px;
     height: 281px;
-    margin-right: 0px;
+    margin-right: auto;
     margin-left: auto;
     border-radius: 8px;
     overflow: hidden;
@@ -368,18 +367,19 @@ a:hover {
     font-weight: bold;
     font-size: 18px;
     width: 300px;
-    text-align: center;
+    margin: auto;
 }
 
 .text_box {
     width: 300px;
     height: 281px;
+    text-align: center;
+    display: grid;
 }
 
 .text_box a {
-    position: absolute;
-    bottom: 0px;
     font-weight: bold;
+    margin: auto;
 }
 
 .the {
