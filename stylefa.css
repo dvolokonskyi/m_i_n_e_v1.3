@@ -177,13 +177,20 @@ a:hover {
 }
 
 .farm_box {
-    margin-top: -10px;
-}
-
-.flex {
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
+    position: relative;
+}
+
+.farm_box div {
+    text-align: center;
+    display: grid;
+}
+
+.farm_box div h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .farm_title {
@@ -192,29 +199,22 @@ a:hover {
 }
 
 .farm_title:hover {
-    box-shadow: 3px;
     opacity: 0.6;
-}
-
-.pf {
-    margin-top: 72px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .img {
     width: 300px;
-    outline: 2px solid whitesmoke;
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 8px;
 }
 
 .specificalities {
     text-indent: 8px;
     color: whitesmoke;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    width: 480px;
+    width: inherit 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #themetoggle,
