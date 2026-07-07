@@ -131,6 +131,11 @@ a:hover {
     transition: 0.5s;
 }
 
+.to {
+    color: wheat;
+    text-decoration: underline;
+}
+
 li {
     color: whitesmoke;
     text-align: justify;
