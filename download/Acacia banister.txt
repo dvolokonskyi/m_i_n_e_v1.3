@@ -421,7 +421,6 @@ Twisted stone pillar - Кручена кам'яна колона
 Uberous soil - Родючий ґрунт
 Unbreakable vanishing block - Блок, що зникає
 Uncrafting table - Стіл розкрафчування
-Uncrafting table disabled - Цей блок було відключено
 Underbrick - Підцеглянник
 Underbrick floor - Підцеглянна підлога
 Unripe trollber - Неспілий трольбер
